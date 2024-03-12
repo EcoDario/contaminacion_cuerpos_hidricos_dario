@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="static/styles/index.css" rel="stylesheet">
-    </head>
 
-    <body>
-        <!-- Navbar -->
-        <div></div>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="static/styles/index.css" rel="stylesheet">
+</head>
 
-        <!-- Navbar responsiva -->
-        <div></div>
+<body>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <!-- Nav responsive toggle button -->
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="#"
+                onclick="toggleNavResponsive()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 
-        <!-- Contenido del body -->
-        <div></div>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">1</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">2</a>
+        </div>
+    </div>
 
-        <!-- Footer -->
-        <div></div>
+    <!-- Navbar responsiva -->
+    <div id="navResponsive" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="toggleNavResponsive()">4</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="toggleNavResponsive()">5</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="toggleNavResponsive()">6</a>
+    </div>
 
-        <script src="static/scripts/index.js"></script>
-    </body>
+    <!-- Contenido del body -->
+    <div></div>
+
+    <!-- Footer -->
+    <div></div>
+
+    <script src="static/scripts/index.js"></script>
+</body>
+
 </html>
