@@ -1,7 +1,11 @@
-body {
-  font-family: "Lato", sans-serif;
+html {
+  font-family: "Merriweather", sans-serif;
 }
 
 .mySlides {
   display: none;
+}
+
+h2, i, p, a {
+  font-family: "Merriweather", sans-serif;
 }
