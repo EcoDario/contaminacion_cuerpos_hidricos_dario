@@ -6,6 +6,10 @@ html {
   display: none;
 }
 
-h2, i, p, a {
+li, button, h3, h2, i, p, a {
   font-family: "Merriweather", sans-serif;
+}
+
+div.mySlides div h3, div.mySlides div p {
+  text-shadow: 3px 3px 5px black;
 }

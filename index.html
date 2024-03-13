@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>EcoDario</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="static/styles/index.css" rel="stylesheet">
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="static/styles/index.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -23,70 +23,224 @@
             <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="#"
                 onclick="toggleNavResponsive()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 
-            <a href="/index.html#body" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-            <a href="/index.html#list-content" class="w3-bar-item w3-button w3-padding-large w3-hide-small">1</a>
-            <a href="/index.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">2</a>
+            <a href="#body" class="w3-bar-item w3-button w3-padding-large">EcoDario</a>
+            <a href="#list-content" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contenido</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contacto</a>
         </div>
     </div>
 
     <!-- Navbar responsiva -->
     <div id="navResponsive" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
-        style="margin-top:46px">
-        <a href="/index.html#list-content" onclick="toggleNavResponsive()" class="w3-bar-item w3-button w3-padding-large">1</a>
-        <a href="/index.html#contact" onclick="toggleNavResponsive()" class="w3-bar-item w3-button w3-padding-large">2</a>
+        style="margin-top: 46px">
+        <a href="#list-content" onclick="toggleNavResponsive()"
+            class="w3-bar-item w3-button w3-padding-large">Contenido</a>
+        <a href="#contact" onclick="toggleNavResponsive()" class="w3-bar-item w3-button w3-padding-large">Contacto</a>
     </div>
 
     <!-- Contenido del body -->
     <div class="w3-content">
-        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="body">
+        <div class="mySlides w3-display-container w3-center">
+            <img src="/static/img/trabajadoresLimpiandoLaChingastosa.png" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>La Chingastosa - Ciudad Dario</h3>
+                <p><i>Trabajadores publicos limpiando la quebrada del municipio</i></p>
+            </div>
+        </div>
+
+        <div class="mySlides w3-display-container w3-center">
+            <img src="/static/img/rio_grande.png" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Río Grande de Matagalpa - Matagalpa</h3>
+            </div>
+        </div>
+
+        <div class="mySlides w3-display-container w3-center">
+            <img src="/static/img/ciudad-dario-matagalpa.jpg" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Parque Central - Ciudad Dario</h3>
+            </div>
+        </div>
+
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width: 800px" id="body">
             <h2 class="w3-wide">Ciudad Darío</h2>
             <p class="w3-opacity"><i>Tierra del gran poeta Ruben Darío</i></p>
-            <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quibusdam omnis ullam
-                corrupti minus quaerat voluptatibus architecto quisquam, consequatur laborum vero. Similique amet sed
-                odio nesciunt eius atque tempore beatae!</p>
+            <p class="w3-justify">
+                Ciudad insignia del departamento de Matagalpa, por ver el nacimiento
+                de uno de los poetas más grandes a nivel nacional, famosa por sus
+                carismaticos pobladores, llena de una cultura rica en valores,
+                prospera, siempre activa gracias a los mismos pobladores, una ciudad
+                que nunca deja de sorprender por sus detalles.
+            </p>
+            <p class="w3-justify">
+                Por desgracia, hasta la ciudad más hermosa suele sufrir los efectos de
+                la contaminación, y Darío no es la excepción, por culpa de esta
+                problematica, Ciudad Darío ha perdido una de sus partes que hacian que
+                destacara la imagen de la zona, sus rios y quebradas, el muy conocido
+                "Río grande de Matagalpa" y la quebrada local "la Chingastosa"
+            </p>
+            <p class="w3-justify">
+                Por esta razon hemos decido crear esta website, para dar a conocer la
+                problematica en sus diversas formas, informar lo más posible para
+                ayudar a los pobladores entusiastas de ayudar a combatir esta
+                contaminación que tanto ha afectado a Darío
+            </p>
         </div>
 
         <div class="w3-black" id="list-content">
-            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+            <div class="w3-container w3-content w3-padding-64" style="max-width: 800px">
                 <h2 class="w3-wide w3-center">Contenido</h2>
 
-                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                <div class="w3-row-padding w3-padding-32" style="margin: 0 -16px">
                     <div class="w3-third w3-margin-bottom">
                         <div class="w3-container w3-white">
-                            <p><b>Lorem Titulum</b></p>
-                            <p class="w3-opacity">Viernes 27 Aug 2024</p>
-                            <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint
-                                consectetur cupidatat.</p>
+                            <h3><b>Consejos sobre la contaminación</b></h3>
+                            <p class="w3-opacity">Viernes, 01 de Marzo del 2024</p>
+                            <p>
+                                Sepa más sobre como combatir la contaminación en todas sus
+                                formas con estos consejos.
+                            </p>
+                            <button class="w3-button w3-black w3-margin-bottom" onclick="toggleDivInformative('info1')">
+                                Más información
+                            </button>
                         </div>
                     </div>
 
                     <div class="w3-third w3-margin-bottom">
                         <div class="w3-container w3-white">
-                            <p><b>Lorem Titulum</b></p>
-                            <p class="w3-opacity">Viernes 27 Aug 2024</p>
-                            <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint
-                                consectetur cupidatat.</p>
+                            <h3><b>Reporte de las aguas segun pobladores</b></h3>
+                            <p class="w3-opacity">Miercoles, 27 de Febrero del 2024</p>
+                            <p>
+                                Conozca un poco sobre el punto de vista de los pobladores de
+                                Darío sobre las condiciones de sus recursos naturales hídricos
+                            </p>
+                            <button class="w3-button w3-black w3-margin-bottom" onclick="toggleDivInformative('info2')">
+                                Más información
+                            </button>
                         </div>
                     </div>
 
                     <div class="w3-third w3-margin-bottom">
                         <div class="w3-container w3-white">
-                            <p><b>Lorem Titulum</b></p>
-                            <p class="w3-opacity">Viernes 27 Aug 2024</p>
-                            <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint
-                                consectetur cupidatat.</p>
+                            <h3>
+                                <b>Rio Grande de Matagalpa y su relacion con Ciudad Darío</b>
+                            </h3>
+                            <p class="w3-opacity">Sabado, 09 de Marzo del 2024</p>
+                            <p>
+                                Vea un poco sobre como el Rio Grande de Matagalpa se relaciona
+                                con la ciudad de Darío.
+                            </p>
+                            <button class="w3-button w3-black w3-margin-bottom" onclick="toggleDivInformative('info3')">
+                                Más información
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+        <!-- informacion individual de cada pagina -->
+        <div id="info1" class="w3-modal ticketModal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <h2 class="w3-wide">Consejos sobre la contaminación</h2>
+                </header>
+                <div class="w3-container">
+                    <h3>Viernes, 27 de Agosto del 2024</h3>
+                    <p>
+                        En cualquier lugar, la contaminación es un problema muy frecuente
+                        , a veces la población busca formas para poder ayudar o aportar un
+                        grano de arena en la mejora de la situacion de estos lugares
+                        afectados por un mal cuido.
+                    </p>
+                    <p>
+                        Como recomendación para poder proveer una correcta ayuda a la
+                        problematica les platicamos los siguientes consejos a tomar en
+                        cuenta:
+                    </p>
+                    <ol>
+                        <li>Botar la basura en su lugar.</li>
+                        <li>No tirar nada de residuos a las aguas</li>
+                        <li>Reciclar la mayor parte de residuos como plasticos</li>
+                        <li>Promover el uso de quimicos biodegradables</li>
+                    </ol>
+                    <button class="w3-button w3-red w3-section" onclick="toggleDivInformative('info1')">
+                        Cerrar<i class="fa fa-remove"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="info2" class="w3-modal ticketModal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <h2 class="w3-wide">Reporte de las aguas segun pobladores</h2>
+                </header>
+                <div class="w3-container">
+                    <h3>Miercoles, 27 de Febrero del 2024</h3>
+                    <p>
+                        Desde los 80', el problema de la contaminación ha sido el pan de
+                        cada día de los problemas que se enfrenta a diario en Ciudad
+                        Darío, afectando a muchos pobladores de la zona, se han hecho
+                        esfuerzos por parte del Gobierno y de algunos pobladores, pero
+                        todos quedan de acuerdo, en que, para realizar un gran cambio en
+                        el estado de estas aguas, aguas que fueron parte de la imagen de
+                        la ciudad, si queremos hacer un cambio, necesita del apoyo de
+                        todos los pobladores.
+                    </p>
+                    <button class="w3-button w3-red w3-section" onclick="toggleDivInformative('info2')">
+                        Cerrar<i class="fa fa-remove"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="info3" class="w3-modal ticketModal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <h2 class="w3-wide">
+                        Rio Grande de Matagalpa y su relacion con Ciudad Darío
+                    </h2>
+                </header>
+                <div class="w3-container">
+                    <h3>Sabado, 09 de Marzo del 2024</h3>
+                    <img src="static/img/rio_grande_de_matagalpa.jpg" alt="" />
+                    <p>
+                        El Rio Grande de Matagalpa, es uno de los ríos más importantes a
+                        nivel nacional, pasa tanto por la ciudad que lleva nombre,
+                        "Matagalpa", nace en la "Selva negra".
+                    </p>
+                    <p>
+                        Este pasa por Sebaco, Ciudad Darío, etc..., por desgracia la
+                        calidad de sus aguas ha ido disminuyendo con el pasar del tiempo,
+                        llevando con sigo la contaminación de las ciudades por las que
+                        pasa.
+                    </p>
+                    <p>
+                        Llega a ser un caracteristico de la ciudad por el puente que une
+                        los barrios como el "Villa el triunfo", etc... con el resto de la
+                        ciudad. En sus grandes crecidas de agua, como por problemas
+                        naturales, como lluviones, sus aguas llegan inundar cierta parte
+                        de la ciudad, como los barrios que tiene una altura al nivel del
+                        rio.
+                    </p>
+                    <p>
+                        Cuentan los pobladores que en el huracan "Mitch", fue un rotundo
+                        desastre, esparciendo todas las aguas por la zona, y llegando a
+                        provocar daños en el ambiente local.
+                    </p>
+                    <button class="w3-button w3-red w3-section" onclick="toggleDivInformative('info3')">
+                        Cerrar<i class="fa fa-remove"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-container w3-content w3-padding-64" style="max-width: 800px" id="contact">
             <h2 class="w3-wide w3-center">Contacto</h2>
             <div class="w3-row w3-padding-32">
                 <div class="w3-col m6 w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker" style="width:30px"></i><i>Nicaragua, Matagalpa, Ciudad Darío</i><br>
-                    <i class="fa fa-envelope" style="width:30px"></i><i>Email: ecodario.grupo2@gmail.com</i><br>
+                    <i class="fa fa-map-marker" style="width: 30px"></i><i>Nicaragua, Matagalpa, Ciudad Darío</i><br />
+                    <i class="fa fa-envelope" style="width: 30px"></i><i>Email: ecodario.grupo2@gmail.com</i><br />
                 </div>
             </div>
         </div>
@@ -95,6 +249,19 @@
     <!-- Footer -->
     <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
         <p class="w3-medium">Creada con <3 por EcoDario - 2024</p>
+        <p class="w3-medium">Integrantes - Grupo No.2 - Ing. Sistemas - UNAN-CUR-Matagalpa: </p>
+        <ul>
+            <li class="w3-medium">Br. Abraham Eli Matamoros Duran</li>
+            <li class="w3-medium">Br. Dennis José Novoa Rodriguez</li>
+            <li class="w3-medium">Br. Franklin Josué Escoto Balmaceda</li>
+            <li class="w3-medium">Br. Guillermo Daniel Matamoros Gutiérrez</li>
+            <li class="w3-medium">Br. Isaac Josué Duarte Vallejos</li>
+            <li class="w3-medium">Br. Itza Lisseth Ruiz Mairena</li>
+            <li class="w3-medium">Br. Joseph Oneal Ortega Luna</li>
+            <li class="w3-medium">Br. Lennin Anderson Toruño Laguna</li>
+            <li class="w3-medium">Br. Oscar Noé Moreno Cajina </li>
+            <li class="w3-medium">Br. Herson Steven Cruz Orozco</li>
+        </ul>
     </footer>
 
     <script src="static/scripts/index.js"></script>
